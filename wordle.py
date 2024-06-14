@@ -208,7 +208,7 @@ def _34CA940():
 
 def select_word(idx):
     # There are 2,309 winner words
-    f = open("/scavengerhunt/winners.txt", "r")
+    f = open("/examples/winners.txt", "r")
     f.seek(idx * 0b101)
     winner_word = f.read(0b101)
     f.close()
