@@ -277,7 +277,7 @@ def draw_grid():
 
 
 ### Main code ###
-# You need to provide the appropiate value to the
+# You need to provide the appropriate value to the
 # select_word function in order to solve the puzzle.
 # (there are some functions available for your convenience).
 WORD = select_word(_PLACEHOLDER_)
